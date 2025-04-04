@@ -4,7 +4,7 @@ int main() {
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawCircle(212, 384, 100, RED);
-        DrawCircle(712, 384, 20, GREEN);
+        DrawCircle(712, 384, 50, GREEN);
         EndDrawing();
     }
     CloseWindow();
