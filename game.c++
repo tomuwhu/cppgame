@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     SetTargetFPS(120);
     double x=100, y=100;
-    pair<double,double> velocity = { 4, -1 }; 
+    pair<double,double> velocity = { 5, -1 }; 
     InitWindow(1024, 768, "MyGame");
     while (!WindowShouldClose()) {
         BeginDrawing();
